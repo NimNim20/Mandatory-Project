@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-family: 'Heebo', sans-serif;
+}
+
+body{
+  background-color: #ededed;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Header */
+.navbar{
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* Header */
+
+/* Start of menu */
+.menu ul{
+  display: flex;
+  align-items: center;
+}
+
+.menu ul li a{
+  text-decoration: none;
+  color: #000;
+  padding: 5px 12px;
+  letter-spacing: 2px;
+  font-size: 18px;
+}
+
+.menu ul li a:hover{
+  border-bottom: 3px solid #000;
+  transition: 0.4s;
+}
+/* End of menu */
+
+/* Sign up button */
+.signup a{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 12px;
+  padding: 12px 30px;
+  border: 2px solid #ff0000;
+}
+
+.signup a:hover{
+  background-color: #ff0000;
+  transition: 0.6s;
+}
+/* Sign up button */
+
+/* Start of body */
+.body-page{
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.50), rgba(0,0,0,0.50)), url(../img/ava-coploff-tcE9zSc2SU8-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.welcome{
+  width: 30%;
+  text-align: center;
+  color: #fff;
+}
+
+.welcome h1{
+  font-size: 40px;
+}
+/* End of body */
+
+/* City cards */
+.tours{
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.places{
+  display: inline;
+  text-align: center;
+  border-radius: 12px;
+}
+
+.places h2{
+  font-size: 35px;
+  letter-spacing: 3px;
+  border-radius: 1px;
+  padding: 30px 30px;
+  background-color: #ededed;
+}
+
+.places a{
+  text-decoration: none;
+  color: #efefef;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 12px;
+  padding: 12px 30px;
+  background-color: #000;
+}
+
+.places a:hover{
+  background-color: #000;
+  letter-spacing: 3px;
+  transition: 0.6s;
+}
+/* City cards */
+
+/* Footer */
+.footer{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer a:hover{
+  border-bottom: 3px solid #000;
+  letter-spacing: 2px;
+  transition: 0.4s;
+}
+/* Footer */
