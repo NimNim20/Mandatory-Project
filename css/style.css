@@ -10,6 +10,10 @@ body{
   background-color: #ededed;
 }
 
+.esbjergbg {
+  background-color: red;
+}
+
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -139,6 +143,37 @@ body{
   transition: 0.6s;
 }
 /* City cards */
+
+/* Esbjerg Page Design start */
+
+.venues{
+  display: flex;
+  border-radius: 12px;
+  background-color: #fff;
+  margin-top: 5px;
+}
+
+/* Museum of the sea */
+.venues .seamuseum{
+  display: flex;
+  background-color: #fff;
+}
+
+.venues .seamuseum a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  height: 50px;
+  margin: 50px 0 0 25px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 12px;
+}
+
+/* Museum of the sea */
+
+/* Esbjerg Page Design end */
 
 /* Footer */
 .footer{
