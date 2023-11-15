@@ -32,6 +32,13 @@ body{
   justify-content: space-around;
   align-items: center;
 }
+
+/* Logo hyperlink */
+.logo a{
+  text-decoration: none;
+  color: #000;
+}
+
 /* Header */
 
 /* Start of menu */
@@ -99,6 +106,7 @@ body{
   width: 70%;
   display: flex;
   justify-content: space-around;
+  
 }
 
 .places{
