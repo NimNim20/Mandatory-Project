@@ -157,6 +157,8 @@ body{
 .venues .seamuseum{
   display: flex;
   background-color: #fff;
+  align-items: center;
+  justify-content: center;
 }
 
 .venues .seamuseum a{
@@ -164,14 +166,72 @@ body{
   color: #fff;
   background-color: #000;
   height: 50px;
-  margin: 50px 0 0 25px;
   font-weight: bold;
   font-size: 18px;
   padding: 12px 30px;
   border-radius: 12px;
 }
-
 /* Museum of the sea */
+
+/* Esbjerg Art Museum */
+.venues .eskum{
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.venues .eskum a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 12px;
+}
+/* Esbjerg Art Museum */
+
+/* Esbjerg Street Food */
+.venues .esbfood{
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.venues .esbfood a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 12px;
+}
+/* Esbjerg Street Food */
+
+/* Posthuset Esbjerg */
+.venues .posthus{
+  display: flex;
+  background-color: #fff;
+  align-items: center;
+  justify-content: center;
+}
+
+.venues .posthus a{
+  text-decoration: none;
+  color: #fff;
+  background-color: #000;
+  height: 50px;
+  font-weight: bold;
+  font-size: 18px;
+  padding: 12px 30px;
+  border-radius: 12px;
+}
+/* Posthuset Esbjerg */
 
 /* Esbjerg Page Design end */
 
